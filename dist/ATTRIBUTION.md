@@ -1,12 +1,31 @@
 # Illustration credits
 
-The supplied anatomical exercise sample and source-available exercise references are credited to **Makatserchyk**, the Shutterstock contributor behind the **Makatolga** profile. The same anatomy-focused workout illustration catalog is available through **Gym Visual**.
+## AI-generated illustrations
 
-- Makatserchyk / Makatolga contributor portfolio: https://www.shutterstock.com/g/Makatolga
-- Gym Visual exercise catalog: https://gymvisual.com/content/10-list-of-exercises
+The exercise illustrations included in this workout guide were generated with
+artificial intelligence specifically for this project.
 
-## AI-generated additions
+The project creator selected the exercises, supplied references, directed the
+visual style, and reviewed and refined the generated results. The illustrations
+use a two-position anatomical format, highlighted muscle areas, athletic
+clothing, and a pure-white background.
 
-For requested exercises that were not available from the referenced source, new illustrations were generated specifically for this personal guide. These additions follow the requested two-position anatomical format, highlighted-muscle treatment, boxer-style clothing, and pure-white background.
+## Visual inspiration
 
-The links above identify the visual source and creator. They do not imply endorsement, and this repository does not grant a license to reuse stock artwork from Shutterstock or Gym Visual.
+The general anatomical exercise-illustration style was inspired by the work of
+Makatsеrchyk, the contributor behind the Makatolga profile on Shutterstock, and
+by the exercise catalog available from GymVisual.
+
+- [Makatolga contributor portfolio](https://www.shutterstock.com/g/Makatolga)
+- [GymVisual exercise catalog](https://gymvisual.com/content/10-list-of-exercises)
+
+These sources are credited for visual inspiration only. The illustrations in
+this project are not presented as works created, supplied, sponsored, or
+endorsed by Makatolga, Shutterstock, or GymVisual.
+
+The original source images are not licensed or redistributed through this
+repository. All third-party works, names, and trademarks remain the property of
+their respective owners.
+
+For asset usage terms, see the repository’s
+[`LICENSE-ASSETS`](../LICENSE-ASSETS) file.
