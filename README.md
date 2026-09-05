@@ -4,7 +4,7 @@ A personal 4–5 day workout guide built around a long loop resistance band, bod
 
 **Live site:** [View the workout guide](https://paola13ulep.github.io/move/)
 
-**Created by:** [Christine Paola Ulep](https://christinepaolaulep.vercel.app/)
+**Created by:** [Yours truly](https://christinepaolaulep.vercel.app/)
 
 ## Features
 
