@@ -84,7 +84,8 @@ the `dist` directory.
 dist/
 ├── assets/
 │   ├── anatomy/        # Anatomical and bodyweight illustrations
-│   └── exercises/      # Resistance-band exercise illustrations
+│   ├── exercises/      # Resistance-band exercise illustrations
+│   └── move-logo.png   # Move favicon      
 ├── ATTRIBUTION.md      # Illustration information and acknowledgements
 ├── index.html          # Website structure
 ├── styles.css          # Layout and visual design
