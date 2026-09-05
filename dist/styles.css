@@ -24,7 +24,6 @@
 
 /* Pure-white illustration plates */
 .exercise-art,.dialog-art,.exercise-thumb,.pick-card img,.custom-plan li img{background:#fff}
-.session-actions{display:flex;align-items:center;gap:10px}.edit-session{border:0;background:transparent;color:var(--muted);padding:11px 8px;font-weight:800;cursor:pointer;white-space:nowrap}.edit-session:hover{color:var(--lime)}
 
 /* Palette-consistent form and keyboard focus */
 .search input:focus,.plan-settings select:focus,.dose-row input:focus{
