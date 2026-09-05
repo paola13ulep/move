@@ -50,8 +50,9 @@ const weeks = [
   {name:'Recovery + Core',time:'30–40 min',note:'Optional day · Keep it easy',items:[['walking','20–25 min'],['bird-dog','3 × 10 / side'],['side-plank','3 × 20–30 sec'],['russian-twist','3 × 16 total'],['toe-touch','3 × 15']]}
 ];
 
-const stretchRoutine={warmup:[['March in place','60 sec'],['Arm circles','30 sec each way'],['Hip circles','30 sec each way'],['Arm cross-over stretch','20 sec / side']],cooldown:[['Standing hamstring stretch','30 sec / side'],['Standing quadriceps stretch','30 sec / side'],['Shoulder stretch','30 sec'],['Triceps stretch','30 sec / side'],['Butterfly stretch','45 sec'],['Downward-Facing Dog','30 sec'],['Upward-Facing Dog stretch','20–30 sec'],["Child's Pose",'45 sec']]};
-const stretchBlock=()=>`<section class="stretch-routine"><div><span>Before every workout · 4–5 min</span><h3>Dynamic warm-up</h3><ul>${stretchRoutine.warmup.map(([n,d])=>`<li><strong>${n}</strong><small>${d}</small></li>`).join('')}</ul></div><div><span>After every workout · 7–9 min</span><h3>Cooldown stretches</h3><ul>${stretchRoutine.cooldown.map(([n,d])=>`<li><strong>${n}</strong><small>${d}</small></li>`).join('')}</ul></div></section>`;
+const stretchRoutine={warmup:[['March in place','60 sec'],['Arm circles','30 sec each way'],['Hip circles','30 sec each way'],['Arm cross-over stretch','20 sec / side'],['Standing hamstring stretch','30 sec / side'],['Standing quadriceps stretch','30 sec / side'],['Shoulder stretch','30 sec'],['Triceps stretch','30 sec / side']],cooldown:[['Butterfly stretch','45 sec'],['Downward-Facing Dog','30 sec'],['Upward-Facing Dog stretch','20–30 sec'],["Child's Pose",'45 sec']]};
+
+const stretchBlock=()=>`<section class="stretch-routine"><div><span>Before every workout · 6–8 min</span><h3>Warm-up</h3><ul>${stretchRoutine.warmup.map(([n,d])=>`<li><strong>${n}</strong><small>${d}</small></li>`).join('')}</ul></div><div><span>After every workout · 3–5 min</span><h3>Cooldown stretches</h3><ul>${stretchRoutine.cooldown.map(([n,d])=>`<li><strong>${n}</strong><small>${d}</small></li>`).join('')}</ul></div></section>`;
 
 const byId=id=>exercises.find(x=>x.id===id);const asset=id=>`assets/anatomy/${id}.png?v=8`;
 let selectedDay=0;let activeFilter='All';let completed=JSON.parse(localStorage.getItem('move-completed')||'[]');
