@@ -1,6 +1,29 @@
-The exercise illustration assets under dist/assets/exercises are licensed
-under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+ASSET LICENSE
 
-License: https://creativecommons.org/licenses/by-sa/4.0/
+Copyright (c) 2026 Christine Paola Ulep
+All rights reserved.
 
-See dist/ATTRIBUTION.md for attribution and source information.
+This license covers the exercise illustrations and other visual assets located
+in dist/assets/. These assets are excluded from the repository’s MIT License,
+which applies only to the source code.
+
+The illustrations were AI-generated specifically for this personal workout
+guide. Their anatomical presentation was visually inspired by:
+
+Makatolga:
+https://www.shutterstock.com/g/Makatolga
+
+GymVisual:
+https://gymvisual.com/content/10-list-of-exercises
+
+These sources are credited for inspiration only. Their original images are not
+licensed or redistributed through this repository.
+
+You may view and download the assets for personal, non-commercial use. You may
+not copy, redistribute, modify, sell, sublicense, or reuse them in another
+project without written permission from Christine Paola Ulep.
+
+The illustrations are provided “as is” for general visual reference and are not
+professional medical or fitness instructions.
+
+For attribution details, see dist/ATTRIBUTION.md.
