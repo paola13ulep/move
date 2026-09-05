@@ -2,7 +2,7 @@
 
 A personal 4–5 day workout guide built around a long loop resistance band, bodyweight movements, and 40–45 minute sessions. It combines a weekly training plan with a searchable exercise library.
 
-**Live site:** https://christine-workout-guide.paola13ulep.chatgpt.site
+**Live site:** (https://paola13ulep.github.io/move/)
 
 **Created by:** [Christine Paola Ulep](https://christinepaolaulep.vercel.app/)
 
