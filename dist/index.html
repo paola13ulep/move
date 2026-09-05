@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Christine's personal long-loop resistance band workout plan and exercise library.">
+  <title>Move — Personal Workout Guide</title>
+  <link rel="stylesheet" href="styles.css?v=9">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Move home"><span>MOVE</span><small>Personal workout guide</small></a>
+    <nav aria-label="Main navigation">
+      <button class="nav-link is-active" data-view="plan">My week</button>
+      <button class="nav-link" data-view="library">Exercise library</button>
+      <button class="nav-link" data-view="builder">Build plan</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section id="plan-view" class="view">
+      <div class="intro">
+        <div>
+          <p class="eyebrow">LONG LOOP BAND · 4–5 DAYS</p>
+          <h1>Stronger, one session at a time.</h1>
+        </div>
+        <div class="week-progress" aria-live="polite">
+          <span id="progress-count">0 of 5 sessions</span>
+          <div class="progress-track"><i id="progress-bar"></i></div>
+          <button id="reset-progress" class="text-button">Reset week</button>
+        </div>
+      </div>
+
+      <div class="week-strip" id="week-strip" aria-label="Choose a workout day"></div>
+      <article class="session" id="session-detail"></article>
+
+      <aside class="note">
+        <strong>Make the band work for you.</strong>
+        <span>Shorten your grip for more resistance. Lengthen it when your form starts to change. The last 2–3 reps should feel challenging, never painful.</span>
+      </aside>
+    </section>
+
+    <section id="library-view" class="view" hidden>
+      <div class="library-head">
+        <div>
+          <p class="eyebrow">41 MOVEMENTS</p>
+          <h1>Exercise library</h1>
+        </div>
+        <label class="search"><span class="sr-only">Search exercises</span><input id="search" type="search" placeholder="Search an exercise…" autocomplete="off"></label>
+      </div>
+      <div class="filters" id="filters" aria-label="Filter exercises"></div>
+      <p id="result-count" class="result-count"></p>
+      <div id="exercise-grid" class="exercise-grid"></div>
+      <div id="empty-state" class="empty" hidden>No exercise matches that search.</div>
+    </section>
+
+    <section id="builder-view" class="view" hidden>
+      <div class="builder-head">
+        <div>
+          <p class="eyebrow">CUSTOM WORKOUTS</p>
+          <h1>Build your plan.</h1>
+        </div>
+        <p>Choose when you want to train, how long you have, and the exercises you want to complete.</p>
+      </div>
+
+      <form id="plan-builder" class="builder-form">
+        <div class="plan-settings">
+          <label><span>Workout day</span><select id="custom-day" required><option>Monday</option><option>Tuesday</option><option>Wednesday</option><option>Thursday</option><option>Friday</option><option>Saturday</option><option>Sunday</option></select></label>
+          <label><span>Workout type</span><select id="custom-type" required><option>Full body</option><option>Lower body</option><option>Upper body</option><option>Core</option><option>Cardio</option><option>Recovery</option><option>Custom</option></select></label>
+          <label><span>Duration</span><select id="custom-duration" required><option value="20">20 minutes</option><option value="30">30 minutes</option><option value="40">40 minutes</option><option value="45" selected>45 minutes</option><option value="60">60 minutes</option></select></label>
+        </div>
+
+        <div class="required-routine">
+          <span>Always included</span>
+          <div><strong>Dynamic warm-up</strong><small>4–5 minutes before your exercises</small></div>
+          <div><strong>Cooldown stretches</strong><small>7–9 minutes after your exercises</small></div>
+          <p>These are automatically part of every workout you save.</p>
+        </div>
+
+        <fieldset class="exercise-picker">
+          <legend>Select exercises</legend>
+          <div class="picker-tools">
+            <label class="search"><span class="sr-only">Search exercises to add</span><input id="builder-search" type="search" placeholder="Search exercises…" autocomplete="off"></label>
+            <span id="selection-count">0 selected</span>
+          </div>
+          <div id="builder-exercises" class="builder-exercises"></div>
+        </fieldset>
+
+        <div id="selected-exercises" class="selected-exercises" hidden>
+          <h2>Sets, reps, or time</h2>
+          <p>Adjust each target before saving.</p>
+          <div id="selected-list"></div>
+        </div>
+
+        <div class="builder-actions">
+          <button type="submit" class="save-plan">Save workout</button>
+          <span id="builder-message" role="status" aria-live="polite"></span>
+        </div>
+      </form>
+
+      <section class="saved-plans">
+        <div class="saved-head"><h2>My custom workouts</h2><span id="saved-count"></span></div>
+        <div id="saved-workouts"></div>
+      </section>
+    </section>
+  </main>
+
+  <dialog id="exercise-dialog">
+    <button class="close" id="close-dialog" aria-label="Close exercise details">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+
+  <footer>
+    <span>41 movements · required warm-up and cooldown · custom workout builder</span>
+    <span><a href="https://christinepaolaulep.vercel.app/" target="_blank" rel="noopener noreferrer">Christine Paola Ulep</a></span>
+  </footer>
+  <script src="app.js?v=8"></script>
+</body>
+</html>
